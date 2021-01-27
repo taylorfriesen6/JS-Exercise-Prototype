@@ -8,7 +8,7 @@
 */
 
 // EXAMPLE SOLUTION CODE:
-function Airplane(name) {
+  function Airplane(name) {
     this.name = name;
     this.isFlying = false;
   }
@@ -18,7 +18,7 @@ function Airplane(name) {
   Airplane.prototype.land = function () {
     this.isFlying = false;
   };
-  
+
   
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -39,9 +39,12 @@ function Airplane(name) {
           + It should return a string with `name` and `age`. Example: "Mary, 50"
   */
   
- function Person() {
-    
-  }
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.stomach = [];
+  console.log(this.stomach);
+}
  
  
 
