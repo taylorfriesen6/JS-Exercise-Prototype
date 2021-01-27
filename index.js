@@ -45,7 +45,14 @@ function Person(name, age) {
   this.stomach = [];
   console.log(this.stomach);
 }
- 
+
+Person.prototype.eat = function(food) {
+  this.stomach.push(food);
+}
+
+Person.prototype.poop = function() {
+  this.stomach.length = 0;
+}
  
 
   
