@@ -114,10 +114,10 @@ Baby.prototype.play = function() {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. If none of the other principles apply, by default "this" refers to the window object
+    2. When we call a function using foo.function(args), this refers to foo
+    3. When using a constructor with the `new` keyword, "this" refers to the object being created
+    4. When we use call or apply or bind, "this" refers to the first argument in the call
   */
   
   
